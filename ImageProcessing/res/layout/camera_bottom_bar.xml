@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/bottom_bar_height"
+    android:layout_alignParentBottom="true"
+    android:background="@color/main_menu_bg"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="5.0" >
+
+    <FrameLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+
+        <com.mzy.album.view.FilterImageView
+            android:id="@+id/btn_thumbnail"
+            android:layout_width="@dimen/thumbnail_imageview_size"
+            android:layout_height="@dimen/thumbnail_imageview_size"
+            android:background="@drawable/thumbnail_bg"
+            android:contentDescription="@string/app_name"
+            android:padding="0.5dip"
+             android:layout_gravity="center"
+            android:scaleType="fitCenter"/>"
+
+        <!-- <ImageView
+            android:id="@+id/videoicon"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:focusable="false"
+            android:background="@color/main_menu_bg" /> -->
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+
+       
+
+        <ImageButton
+            android:id="@+id/btn_shutter_camera"
+            android:layout_width="@dimen/shutter_bottom_size"
+            android:layout_height="@dimen/shutter_bottom_size"
+            android:background="@drawable/btn_shutter_camera"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+
+       <ImageButton 
+         android:id="@+id/btn_chat"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/ic_chat"
+         android:contentDescription="@string/app_name"
+         android:scaleType="center"
+         android:src="@drawable/chat_32x32"/>   
+    </RelativeLayout>
+
+</LinearLayout>

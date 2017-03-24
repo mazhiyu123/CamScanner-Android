@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/album_rooter_bar_height"
+    android:background="@color/common_title_bg"
+
+    android:gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:layout_weight="2.0">
+    
+     <RelativeLayout 
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" 
+        >
+        <Button
+        android:id="@+id/btn_processing"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:text="图片处理" />
+    </RelativeLayout>    
+    
+
+    <!-- <RelativeLayout
+         android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"  >
+        <Button
+        android:id="@+id/btn_cut"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:text="剪裁" />
+    </RelativeLayout> -->
+    
+<!-- <RelativeLayout 
+     android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+    <Button
+        android:id="@+id/btn_sharpen"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:text="增强锐化" />
+     
+</RelativeLayout> -->
+
+ <RelativeLayout 
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" 
+        >
+        <Button
+        android:id="@+id/delete"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:text="删除" />
+    </RelativeLayout>    
+    
+
+<!-- <Button
+        android:id="@+id/imageprocessing"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@color/common_title_bg"
+        android:gravity="center"
+        android:text="@string/common_edit"
+        android:textColor="@drawable/color_white_yellow"
+        android:textSize="@dimen/album_rooter_bar_text_size" />
+ -->
+    <!-- <Button
+        android:id="@+id/delete"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@color/common_title_bg"
+        android:gravity="center"
+        android:text="@string/common_delete"
+        android:textColor="@drawable/color_white_yellow"
+        android:textSize="@dimen/album_rooter_bar_text_size" /> -->
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/bottom_bar_height"
+    android:layout_alignParentBottom="true"
+    android:background="@color/main_menu_bg"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="3.0" >
+
+    <RelativeLayout 
+        android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" 
+        >
+        <Button
+        android:id="@+id/btn_topdf"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:layout_weight="1.0"
+        android:text="格式转换pdf" />
+    </RelativeLayout>    
+    
+
+    <RelativeLayout
+         android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"  >
+        <Button
+        android:id="@+id/btn_cut"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:text="透视变换" />
+    </RelativeLayout>
+    
+<RelativeLayout 
+     android:layout_width="0.0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center" >
+    <Button
+        android:id="@+id/btn_sharpen"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_bar_height"
+        android:layout_weight="1.0"
+        android:text="增强锐化" />
+     
+</RelativeLayout>
+    
+
+</LinearLayout>
